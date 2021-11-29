@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingVertical="8dp"
+	android:orientation="vertical"
+	tools:context=".MainActivity">
+
+	<com.google.android.material.textfield.TextInputLayout
+		android:id="@+id/title_text1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Количество состояний:">
+
+		<com.google.android.material.textfield.TextInputEditText
+			android:id="@+id/edit1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+		/>
+
+	</com.google.android.material.textfield.TextInputLayout>
+
+	<com.google.android.material.textfield.TextInputLayout
+		android:id="@+id/title_text2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Размер алфавита:">
+
+		<com.google.android.material.textfield.TextInputEditText
+			android:id="@+id/edit2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+		/>
+
+	</com.google.android.material.textfield.TextInputLayout>
+
+	<Button android:id="@+id/but1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Дальше"/>
+
+	<Button android:id="@+id/but2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Создать новый автомат"/>
+
+	<TextView android:id="@+id/stack_text_view"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@color/black"
+		android:textSize="20sp"/>
+
+	<TextView android:id="@+id/test_text_view"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@color/black"
+		android:textSize="20sp"/>
+
+	<TextView android:id="@+id/text3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="32sp"/>
+
+</LinearLayout>
